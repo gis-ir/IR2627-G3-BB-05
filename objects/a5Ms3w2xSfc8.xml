@@ -15,6 +15,7 @@ Trazabilidad: Sistema de control y registro que permite seguir el rastro de la a
   </properties>
   <children>
     <child id="ToE6pc5VT66L"/>
+    <child id="GCNyWRSzbVut"/>
     <child id="3VqGzsLhmr7n"/>
     <child id="firUrgnJGf2b"/>
     <child id="vrvtgRXhS9iq"/>
