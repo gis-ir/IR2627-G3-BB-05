@@ -11,7 +11,41 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Proceso de recepción y descarga de aceitunas (actual)
+
+Este proceso comprende las operaciones realizadas desde que el agricultor tiene el remolque cargado de aceitunas hasta que estas se descargan en la tolva asignada de la almazara. En él participan el agricultor, que transporta las aceitunas, y el responsable de tolvas, Francisco Canela Reina, junto con el operario de patio, que intervienen en la recepción, el pesaje y la asignación de la línea de descarga.
+
+El proceso comienza cuando el agricultor tiene el remolque cargado y emite el Documento de Acompañamiento al Transporte (DAT). A continuación, transporta las aceitunas hasta la almazara y, al llegar, espera su turno. Cuando le corresponde, coloca el camión sobre la báscula y se inicia la coordinación con el responsable de tolvas.
+
+Por un lado, el responsable de tolvas recibe el DAT y la información del remolque, recibe el remolque, lo pesa y registra su entrada. Después, asigna la línea de descarga correspondiente y comunica la asignación al agricultor. Por otro lado, el operario de patio emite y entrega al agricultor el ticket con el peso.
+
+Una vez recibidos tanto la asignación de la línea de descarga como el ticket de peso, el agricultor lleva el camión a la tolva asignada y descarga las aceitunas. El proceso finaliza cuando se completa la descarga.
+
+PROCESO DE RECEPCIÓN Y DESCARGA DE ACEITUNAS
+
+1. Emitir el Documento de Acompañamiento al Transporte (DAT).
+
+2. Transportar las aceitunas a la almazara. 
+
+3. Llegar a la almazara y esperar el turno. 
+
+4. Colocar el camión sobre la báscula. 
+
+5. Recibir el DAT y la información del remolque. 
+
+6. Recibir el remolque. 
+
+7. Pesar el remolque y registrar la entrada del camión. 
+
+8. Realizar en paralelo la asignación de la línea de descarga y la emisión del ticket de peso.
+Línea de asignación de descarga: Asignar la línea de descarga (tolva) y comunicar la asignación al agricultor.
+Línea del ticket de peso: Emitir y entregar el ticket de peso al agricultor y recibir el ticket de peso. 
+
+9. Llevar el camión a la tolva asignada. 
+
+10. Descargar las aceitunas.
+
+11. Finalizar el proceso.]]></markdownProperty>
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Recepcion aceituna actual.svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>

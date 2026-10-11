@@ -11,7 +11,28 @@
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Proceso de expedición del aceite (actual)
+
+Este proceso comprende las operaciones realizadas desde que el aceite está almacenado en la bodega hasta que se genera y se envía el documento electrónico de expedición al camionero. En él participan el gerente de la almazara, Francisco Canela Reina, y el operario de patio. También interviene el transportista de aceite, que recibe el documento de expedición.
+
+El proceso comienza cuando se recibe la notificación de que un depósito está completo de aceite. El gerente genera el código QR del depósito desde el programa. A continuación, se realizan en paralelo la recogida y carga del aceite en el camión por parte del operario de patio y la consulta de los partes de incidencias en papel por parte del gerente. Tras consultar los partes, el gerente introduce las observaciones correspondientes.
+
+Cuando la recogida y carga del aceite y la introducción de observaciones han finalizado, el gerente registra la expedición en la tablet. Después, genera el documento electrónico de expedición, para lo que se recibe la firma del camionero. Finalmente, el documento se envía al camionero y el proceso termina.
+
+PROCESO DE EXPEDICIÓN DEL ACEITE
+1. Recibir la notificación de depósito completo de aceite. 
+
+2. Generar el código QR del depósito. 
+
+3. Realizar en paralelo la recogida y carga del aceite y la consulta de los partes de incidencias.
+
+4. Registrar la expedición en la tablet. Una vez finalizadas las actividades paralelas, el gerente registra la expedición en la tablet.
+
+5. Generar el documento electrónico de expedición. El gerente genera el documento electrónico de expedición tras recibir la firma del camionero.
+
+6. Enviar el documento al camionero. El documento electrónico de expedición se envía al camionero.
+
+7. Finalizar el proceso. El proceso termina cuando se ha enviado el documento electrónico de expedición al camionero. ]]></markdownProperty>
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Expedicion aceite actual.svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
