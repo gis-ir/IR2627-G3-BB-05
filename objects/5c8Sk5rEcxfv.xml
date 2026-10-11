@@ -6,15 +6,17 @@
       <number>013</number>
       <suffix><![CDATA[]]></suffix>
     </codeProperty>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Administrador del sistema de trazabilidad]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Operario de molino]]></stringProperty>
     <dateProperty name=":Proteus-date" category="general">2026-10-09</dateProperty>
     <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
     <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author"/>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <traceProperty name="participates-in" category="detail" acceptedTargets="business-process" traceType=":Proteus-dependency"/>
-    <markdownProperty name="description" category="detail"><![CDATA[Este actor de negocio representa a un gestor de usuarios, permisos, parámetros y configuración del sistema digital.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Este actor de negocio representa al personal dirigido por el jefe de molino, responsables del control continuo de la maquinaria de extracción, de supervisar variables como la temperatura de la masa y de registrar parámetros del proceso.]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
-    <markdownProperty name="comments" category="comments"><![CDATA[Al actualizar el sistema de trazabilidad puede necesitar una persona capacitada para usar la nueva herramientas o configurar el sistemas correctamente.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[
+Al actualizar el sistema de trazabilidad, los registros puede hacerlos en una pantalla digital, y no anotarlos a mano.
+]]></markdownProperty>
   </properties>
   <children/>
 </object>
