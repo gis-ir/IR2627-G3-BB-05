@@ -8,7 +8,7 @@
       <trace target="kdViwUcgVYQQ" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="text" category="detail"><![CDATA[El principal inconveniente en la gestión actual de la fábrica es la falta de integración tecnológica entre el trabajo en planta y las oficinas. Aunque la cooperativa dispone de un programa informático (ERP) específico para el sector agrario que incluye módulos de contabilidad, gestión de cultivos y trazabilidad, este se encuentra actualmente infrautilizado para el trabajo diario de fábrica. La limitación principal reside en que las interfaces y herramientas del sistema actual no están diseñadas para el entorno industrial ni adaptadas al ritmo de los operarios, lo que impide registrar los datos operativos y las incidencias en el momento exacto en que ocurren.
+    <markdownProperty name="text" category="detail"><![CDATA[El principal inconveniente en la gestión actual de la fábrica es la falta de integración tecnológica entre el trabajo en planta y las oficinas. Aunque la cooperativa dispone de un programa informático (ERP) específico para el sector agrario que incluye módulos de contabilidad, gestión de cultivos y trazabilidad, este se encuentra actualmente infrautilizado  en el trabajo diario de fábrica. La limitación principal reside en que las interfaces y herramientas del sistema actual no están diseñadas para el entorno industrial ni adaptadas al ritmo de los operarios, lo que impide registrar los datos operativos y las incidencias en el momento exacto en que ocurren.
 
 Esta situación genera una serie de dificultades operativas en el día a día:
 

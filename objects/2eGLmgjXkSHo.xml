@@ -13,7 +13,7 @@
       <trace target="UuQk6c5yaiHc" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[**Como** [Operario](#operario) de planta,
+    <markdownProperty name="description" category="detail"><![CDATA[**Como**  Operario de planta,
 **Quiero** registrar anomalías externas (ej. paradas de motor, rotura de latiguillos, limpieza de imanes) en el software, vinculándolas a la línea de producción y hora exacta del suceso,
 **Para** asegurar que queden indexadas de forma permanente en el historial del lote.]]></markdownProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>

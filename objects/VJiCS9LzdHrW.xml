@@ -13,7 +13,7 @@
       <trace target="UuQk6c5yaiHc" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[**Como** [Operario](#operario) de molino / Jefe de patio,
+    <markdownProperty name="description" category="detail"><![CDATA[**Como** Operario de molino / Jefe de patio,
 **Quiero** registrar los cambios de fase, tiempos de batido y velocidades a través de terminales de pantalla táctil intuitivas mediante un flujo rápido de máximo dos toques,
 **Para** eliminar el uso de plantillas en papel y evitar que el gerente tenga que transcribir los datos al día siguiente.]]></markdownProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>

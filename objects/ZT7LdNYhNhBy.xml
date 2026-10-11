@@ -20,6 +20,7 @@ El proceso comienza cuando se recibe la notificación de que un depósito está 
 Cuando la recogida y carga del aceite y la introducción de observaciones han finalizado, el gerente registra la expedición en la tablet. Después, genera el documento electrónico de expedición, para lo que se recibe la firma del camionero. Finalmente, el documento se envía al camionero y el proceso termina.
 
 PROCESO DE EXPEDICIÓN DEL ACEITE
+
 1. Recibir la notificación de depósito completo de aceite. 
 
 2. Generar el código QR del depósito. 

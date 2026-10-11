@@ -13,7 +13,7 @@
       <trace target="UuQk6c5yaiHc" traceType=":Proteus-author"/>
     </traceProperty>
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
-    <markdownProperty name="description" category="detail"><![CDATA[**Como** [Operario](#operario) de planta,
+    <markdownProperty name="description" category="detail"><![CDATA[**Como** Operario de planta,
 **Quiero** tener la opción de registrar las variables del proceso tanto en tiempo real como de manera diferida al cierre del turno,
 **Para** no descuidar las labores mecánicas urgentes en el molino cuando se requiera atención inmediata en la maquinaria.]]></markdownProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
