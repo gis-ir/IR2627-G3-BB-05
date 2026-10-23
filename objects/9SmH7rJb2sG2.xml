@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="9SmH7rJb2sG2" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El agricultor o socio, la procedencia, el polígono, la parcela, la variedad, la fecha y hora de recepción, el peso y la tolva de descarga.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="esjzfVJGh3AF" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El depósito de origen, el depósito de destino, la cantidad transferida y la fecha y hora de la operación.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

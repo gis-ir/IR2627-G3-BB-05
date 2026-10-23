@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="uNC2zV7zJX46" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Los tiempos de batido, la velocidad, la temperatura de la masa y la dosis de talco utilizada.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
