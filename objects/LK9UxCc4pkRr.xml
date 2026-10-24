@@ -13,13 +13,13 @@
     <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
     <markdownProperty name="description" category="detail"><![CDATA[Proceso de recepción y descarga de aceitunas (actual)
 
-Este proceso comprende las operaciones realizadas desde que el agricultor tiene el remolque cargado de aceitunas hasta que estas se descargan en la tolva asignada de la almazara. En él participan el agricultor, que transporta las aceitunas, y el responsable de tolvas, Francisco Canela Reina, junto con el operario de patio, que intervienen en la recepción, el pesaje y la asignación de la línea de descarga.
+Este proceso comprende las operaciones realizadas desde que el agricultor o el transportista (proveedor de aceitunas) tiene el remolque cargado de aceitunas hasta que estas se descargan en la tolva asignada de la almazara. En él participan el proveedor de aceitunas, que transporta las aceitunas, y el responsable de tolvas, Francisco Canela Reina, junto con el operario de patio, que intervienen en la recepción, el pesaje y la asignación de la línea de descarga.
 
-El proceso comienza cuando el agricultor tiene el remolque cargado y emite el Documento de Acompañamiento al Transporte (DAT). A continuación, transporta las aceitunas hasta la almazara y, al llegar, espera su turno. Cuando le corresponde, coloca el camión sobre la báscula y se inicia la coordinación con el responsable de tolvas.
+El proceso comienza cuando el proveedor de aceitunas tiene el remolque cargado y emite el Documento de Acompañamiento al Transporte (DAT). A continuación, transporta las aceitunas hasta la almazara y, al llegar, espera su turno. Cuando le corresponde, coloca el camión sobre la báscula y se inicia la coordinación con el responsable de tolvas.
 
-Por un lado, el responsable de tolvas recibe el DAT y la información del remolque, recibe el remolque, lo pesa y registra su entrada. Después, asigna la línea de descarga correspondiente y comunica la asignación al agricultor. Por otro lado, el operario de patio emite y entrega al agricultor el ticket con el peso.
+Por un lado, el responsable de tolvas recibe el DAT y la información del remolque, recibe el remolque, lo pesa y registra su entrada. Después, asigna la línea de descarga correspondiente y comunica la asignación al proveedor. Por otro lado, el operario de patio emite y entrega al proveedor de aceitunas el ticket con el peso.
 
-Una vez recibidos tanto la asignación de la línea de descarga como el ticket de peso, el agricultor lleva el camión a la tolva asignada y descarga las aceitunas. El proceso finaliza cuando se completa la descarga.
+Una vez recibidos tanto la asignación de la línea de descarga como el ticket de peso, el proveedor de aceitunas lleva el camión a la tolva asignada y descarga las aceitunas. El proceso finaliza cuando se completa la descarga.
 
 PROCESO DE RECEPCIÓN Y DESCARGA DE ACEITUNAS
 
@@ -38,15 +38,15 @@ PROCESO DE RECEPCIÓN Y DESCARGA DE ACEITUNAS
 7. Pesar el remolque y registrar la entrada del camión. 
 
 8. Realizar en paralelo la asignación de la línea de descarga y la emisión del ticket de peso.
-Línea de asignación de descarga: Asignar la línea de descarga (tolva) y comunicar la asignación al agricultor.
-Línea del ticket de peso: Emitir y entregar el ticket de peso al agricultor y recibir el ticket de peso. 
+Línea de asignación de descarga: Asignar la línea de descarga (tolva) y comunicar la asignación al proveedor.
+Línea del ticket de peso: Emitir y entregar el ticket de peso al proveedor de aceitunas y recibir el ticket de peso. 
 
 9. Llevar el camión a la tolva asignada. 
 
 10. Descargar las aceitunas.
 
 11. Finalizar el proceso.]]></markdownProperty>
-    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Recepcion aceituna actual.svg]]></fileProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Recepción aceite anterior (1).svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
