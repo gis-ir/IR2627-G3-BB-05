@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="MPXy2Y82BpVN" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Párrafo]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-10-30</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="kdViwUcgVYQQ" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[- Inicio de sesión: Pantalla de autenticación principal que permite acceder a la plataforma mediante identificación del trabajador (usuario y contraseña, PIN o tarjeta). Está optimizada para uso táctil, con botones grandes y teclado numérico en pantalla para facilitar el acceso a los operarios en planta. 
+- Selección de rol / identificación del operario: Pantalla que confirma la identidad del trabajador y le redirige a su panel según su rol (patio, molino o gerencia), evitando que acceda a funciones que no le corresponden. 
+- Panel de patio: Pantalla inicial del operario de patio con accesos directos de gran tamaño a la recepción y descarga de aceituna, la carga de aceite en cisterna y el registro de incidencias. 
+- Registro de recepción y descarga: Formulario para registrar la entrada de aceituna: agricultor, procedencia (finca, polígono, parcela), variedad, tipo (ecológico/API), peso del ticket y tolva asignada. Incluye validaciones para evitar duplicados y mantener la trazabilidad desde el origen. 
+- Carga de aceite en cisterna: Pantalla para registrar la salida de aceite desde un depósito a la cisterna del camión, con depósito de origen, volumen cargado y vinculación con la expedición correspondiente. 
+- Panel de molino: Pantalla inicial del jefe y los operarios de molino. Muestra el lote en curso, la tolva activa, la fase del proceso y accesos rápidos al registro de parámetros y a incidencias. 
+- Registro de proceso de molturación: Flujo guiado, de máximo dos toques por acción, para registrar las fases del proceso (molienda, batido, centrifugado, decantación). Permite introducir los datos en tiempo real o de forma diferida al cierre del turno (OBJN-002). 
+- Registro de dosis de talco: Formulario breve para anotar la cantidad de talco añadida a la masa, asociada al lote y a la hora exacta. 
+- Registro de temperatura de masa: Pantalla para registrar periódicamente la medición de la sonda. Muestra el histórico del lote y resalta en color los valores que superan el límite de temperatura (27 ºC). 
+- Registro de centrifugado: Pantalla para anotar la duración y la velocidad tras el centrifugado horizontal y vertical, vinculadas al parte de molino. 
+- Registro de agua añadida: Formulario para registrar la cantidad y la temperatura del agua que se añade a la centrifugadora vertical. 
+- Estado de tolvas: Vista visual de las tolvas del molino (1 al 6) con su contenido, tipo de aceituna y nivel de ocupación, para que operarios y gerencia sepan de un vistazo qué se está procesando. 
+- Planificación de tolvas: Herramienta del gerente y del maestro de molino para definir y ordenar, mediante arrastrar y soltar, a qué tolvas se destinan las descargas según la calidad y homogeneidad del fruto (ecológico, verde premium, maduro), evitando esperas excesivas (OBJN-005). 
+- Registro de incidencias: Interfaz muy gráfica, accesible desde cualquier panel, para notificar al instante averías, paradas de motor, derrames, roturas o limpieza de imanes. El trabajador elige el tipo de incidencia mediante iconos, la línea de producción afectada y puede añadir una nota; la fecha y hora se registran automáticamente (OBJN-003). 
+- Panel de alertas: Pantalla donde el gerente y el responsable de mantenimiento reciben avisos automáticos ante averías o desviaciones críticas que puedan comprometer la calidad del AOVE. Muestra la urgencia, el origen y el estado de cada alerta. 
+- Listado de incidencias: Tabla con el historial de incidencias registradas, con filtros por fecha, tipo, línea de producción y estado de resolución. 
+- Detalle de la incidencia: Vista detallada con quién la notificó, cuándo, la línea afectada, el lote vinculado y las observaciones, para consultarla posteriormente en la trazabilidad del lote. 
+- Listado de depósitos: Vista del gerente con los depósitos de la bodega, su volumen, nivel de llenado, tipo de aceite y estado, con acceso directo al detalle y a los informes. 
+- Detalle del depósito y lotes: Pantalla que muestra los lotes de aceite almacenados en un depósito, su procedencia y los parámetros registrados, y enlaza con el informe de trazabilidad. 
+- Informes de trazabilidad: Pantalla para generar, con un solo clic, el informe completo de cualquier depósito: procedencia de la aceituna, variables medidas e incidencias durante la molturación (OBJN-004). Permite visualizarlo y exportarlo. 
+- Expediciones: Listado de las salidas de aceite con depósito, volumen, transportista, fecha y estado del documento. 
+- Registro de expedición: Formulario para registrar una nueva expedición desde la tablet: depósito de origen, volumen y transportista, con validación de la concordancia entre el volumen producido y el expedido. 
+- Firma del transportista: Pantalla táctil donde el transportista firma la conformidad de carga. 
+Documento electrónico de expedición: Vista previa del documento generado tras la firma, con opción de enviarlo telemáticamente al transportista. 
+- Gestión de usuarios: Listado de trabajadores con su rol y estado, con opciones para crear, editar o desactivar usuarios (solo gerencia). 
+- Crear / editar usuario: Formulario para dar de alta o modificar a un trabajador: datos personales, rol y credenciales. 
+- Perfil: Pantalla con los datos del usuario conectado, con opciones para editar sus datos o cerrar sesión. 
+- Modal de confirmación: Ventana emergente que solicita validación antes de acciones críticas (eliminar un registro, modificar un parte ya guardado o cerrar un turno), para evitar errores o modificaciones involuntarias.]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
