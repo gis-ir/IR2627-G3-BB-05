@@ -34,7 +34,7 @@ PROCESO DE EXPEDICIÓN DEL ACEITE
 6. Enviar el documento al camionero. El documento electrónico de expedición se envía al camionero.
 
 7. Finalizar el proceso. El proceso termina cuando se ha enviado el documento electrónico de expedición al camionero. ]]></markdownProperty>
-    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Expedicion aceite actual.svg]]></fileProperty>
+    <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Expedición aceite actual.svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
