@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="ZX5kWckW5cwZ" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[velocidad]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[decimal]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[velocidad de centrifugado.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

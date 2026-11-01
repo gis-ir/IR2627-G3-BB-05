@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="PVsXZQtMH8sR" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[corriente]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[corrienteProceso]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[corriente que se trata (masa, líquido aceite-agua o alperujo)]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

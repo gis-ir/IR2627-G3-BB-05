@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="jBRecTz6yUkK" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[fechaHoraResolucion]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[datetime]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[momento en que se resuelve  la incidencia (vacío si sigue abierta)]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="y5uEMUxYjk2s" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[kgNeto]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[decimal]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[atributo derivado del peso neto de aceituna (kgBruto − kgTara).]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
