@@ -2,7 +2,7 @@
 <object id="9SmH7rJb2sG2" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[El agricultor o socio, la procedencia, el polígono, la parcela, la variedad, la fecha y hora de recepción, el peso y la tolva de descarga.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Número o identificador del vale, Cliente, Nombre de la organización, fecha y hora de inicio y fin,  indentificador variedad, Variedad,  identificador calidad, Calidad, Activo(S/N), Kg aceite, Rendimiento (%), Acidez, Identificador tipo de variedad, Tipo de variedad, Ref.Cat., Pesando, Liquido, Humedad.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

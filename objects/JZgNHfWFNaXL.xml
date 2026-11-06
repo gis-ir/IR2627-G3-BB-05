@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="JZgNHfWFNaXL" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Identificador de la tolva, Nombre de la tolva, Capacidad, Estado activo(S/N), Inicio de llenado, Fin de llenado, Inicio de vaciado, Fin de vaciado, Lote asosiado, Información de aceite, Kilogramos de aceituna, Kilogramos de aceite.
+]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

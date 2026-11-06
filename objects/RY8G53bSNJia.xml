@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="RY8G53bSNJia" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Identificador del proceso de molturación, Fecha, Línea, Turno, Nombre de la línea, Hora de inicio, Hora de fin, Estado del proceso (activo/inactivo), Detalle]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
