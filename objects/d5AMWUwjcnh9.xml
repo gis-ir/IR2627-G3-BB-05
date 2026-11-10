@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="d5AMWUwjcnh9" classes="section" acceptedChildren=":Proteus-any" acceptedParents=":Proteus-document section">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Modelo del flujo de trazabilidad (Estructura de datos)]]></stringProperty>
+    <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children>
+    <child id="zBHPedpaxpS9"/>
+    <child id="yxnqVBqWh4W6"/>
+    <child id="JdiQyGjUZ8ax"/>
+  </children>
+</object>
