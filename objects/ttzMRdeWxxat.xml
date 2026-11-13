@@ -2,7 +2,7 @@
 <object id="ttzMRdeWxxat" classes="specific-data" acceptedChildren=":Proteus-none" acceptedParents="information-requirement">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[dato específico]]></stringProperty>
-    <markdownProperty name="description" category="general"><![CDATA[Tipo de incidencia, fecha y hora, línea o maquinaria afectada y descripción.]]></markdownProperty>
+    <markdownProperty name="description" category="general"><![CDATA[Tipo de incidencia, Fecha y Hora de la incidencia, Fecha y Hora de resolución de incidencia, Descripción, Zona afectada y Gravedad de la incidencia.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
