@@ -2,7 +2,7 @@
 <object id="JzrvTrSwezTr" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[estado]]></stringProperty>
-    <stringProperty name="type" category="general"><![CDATA[string]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[EstadoExpedicion]]></stringProperty>
     <markdownProperty name="description" category="detail"><![CDATA[atributo derivado que puede ser pendiente (sin firma), firmada (con firma) o enviada (con fechaEnvio en el documento).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

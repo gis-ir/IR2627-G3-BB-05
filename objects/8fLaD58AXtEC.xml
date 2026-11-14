@@ -2,7 +2,7 @@
 <object id="8fLaD58AXtEC" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[variedad]]></stringProperty>
-    <stringProperty name="type" category="general"><![CDATA[tipoFruto]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[TipoFruto]]></stringProperty>
     <markdownProperty name="description" category="detail"><![CDATA[variedad de aceituna entregada.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

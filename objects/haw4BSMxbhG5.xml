@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="haw4BSMxbhG5" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[esMezcla]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[boolean]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[indica si el contenido de la tolva contiene mezcla de varios tipo de aceitunas.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
