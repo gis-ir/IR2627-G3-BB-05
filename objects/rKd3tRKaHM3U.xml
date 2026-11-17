@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="rKd3tRKaHM3U" classes="traceable-object paragraph" acceptedChildren=":Proteus-none" acceptedParents=":Proteus-document section" selectedCategory="detail">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paragraph]]></stringProperty>
+    <dateProperty name=":Proteus-date" category="general">2026-11-17</dateProperty>
+    <stringProperty name="version" category="general"><![CDATA[1.0]]></stringProperty>
+    <traceProperty name="authors" category="general" acceptedTargets="stakeholder" traceType=":Proteus-author">
+      <trace target="TqtP93SNh5qQ" traceType=":Proteus-author"/>
+    </traceProperty>
+    <traceProperty name="sources" category="general" acceptedTargets="stakeholder" traceType=":Proteus-information-source"/>
+    <markdownProperty name="text" category="detail"><![CDATA[La arquitectura sigue un estilo en tres capas con las siguientes reglas:
+
+1. Un paquete solo depende de paquetes de su misma capa o de la capa inferior, nunca de una capa superior.
+
+2. La capa de presentación no accede a los datos ni a los sistemas externos; lo hace a través de la lógica de negocio.
+
+3. Solo las pasarelas conocen a los sistemas externos. Un cambio en el ERP o en la Intranet de Oleoestepa afecta únicamente a su pasarela (RQNF-007).
+
+4. El sistema no escribe en el ERP: la pasarela del ERP es de solo lectura (RQG-001, RQG-002).
+
+**Capa de presentación**
+
+| Paquete | Responsabilidad | Utiliza | Requisitos |
+| :--- | :--- | :--- | :--- |
+| Interfaz de planta | Pantallas táctiles con las que los operarios y el jefe de molino registran los parámetros del proceso y las incidencias. | Registro y seguimiento de la producción; Gestión de incidencias | OBJN-001, OBJN-002, OBJN-003, RQNF-004, RQNF-005, RQNF-006 |
+| Interfaz de gerencia | Pantallas con las que el gerente consulta las incidencias y las alertas y genera los informes de trazabilidad. | Gestión de incidencias; Consulta e informes de trazabilidad | OBJN-004 |
+
+Ambos paquetes utilizan además Usuarios y control de acceso.
+
+**Capa de lógica de negocio**
+
+| Paquete | Responsabilidad | Utiliza | Requisitos |
+| :--- | :--- | :--- | :--- |
+| Registro y seguimiento de la producción («subsistema») | Registra los parámetros del proceso de molturación: temperatura de la masa, dosis de talco, tiempos y velocidades de batido y centrifugado, y cantidad y temperatura del agua. Los asocia al proceso de molturación correspondiente y admite el registro durante la operación o al cierre del turno. | Pasarela de lectura del ERP | Subsistema 1 de la ERS; OBJN-001, OBJN-002; RQI-003; REGN-003 |
+| Gestión de incidencias («subsistema») | Registra las incidencias (tipo, fecha y hora, zona afectada, gravedad y resolución) y las vincula a la línea y al lote afectados. Emite alertas ante averías o desviaciones críticas del proceso, como una temperatura de la masa superior a 27 ºC. | Registro y seguimiento de la producción; Pasarela de lectura del ERP | Subsistema 2 de la ERS; OBJN-003; RQI-013; REGN-004 |
+| Consulta e informes de trazabilidad («subsistema») | Reúne, para un lote o un depósito, la procedencia de la aceituna, los parámetros registrados y las incidencias ocurridas, y genera el informe de trazabilidad. Solo consulta información: no la modifica. | Registro y seguimiento de la producción; Gestión de incidencias; Pasarela de lectura del ERP; Pasarela con Oleoestepa | Subsistema 3 de la ERS; OBJN-004; RQI-005; RQNF-010 |
+| Usuarios y control de acceso | Identifica a cada usuario, determina qué puede hacer según su rol y permite saber quién registró cada dato. | — | RQI-014; RQNF-013, RQNF-015 |
+
+Todos los paquetes de esta capa utilizan Persistencia de datos propios.
+
+**Capa de datos e integración**
+
+| Paquete | Responsabilidad | Utiliza | Requisitos |
+| :--- | :--- | :--- | :--- |
+| Persistencia de datos propios | Almacena la información que genera el propio sistema: parámetros del proceso, incidencias, alertas y usuarios. | — | RQI-003, RQI-013, RQI-014 |
+| Pasarela de lectura del ERP | Ofrece al resto del sistema, en modo de solo lectura, la información que ya gestionan Cemawin y Trazamolino: recepciones de aceituna, socios y parcelas, lotes, líneas y procesos de molturación, movimientos de tolvas, depósitos, trasvases y expediciones. | Cemawin y Trazamolino (sistema externo) | RQG-001, RQG-002, RQNF-007; RQI-001, RQI-002, RQI-006, RQI-007, RQI-008, RQI-010, RQI-011, RQI-012 |
+| Pasarela con Oleoestepa | Envía a la Intranet de Oleoestepa la caracterización de los depósitos y obtiene las analíticas asociadas a sus códigos QR. | Intranet de Oleoestepa (sistema externo) | RQG-003, RQNF-016 |
+
+**Sistemas externos**
+
+Cemawin y Trazamolino, de Uniagro, forman el ERP actual de la cooperativa: contabilidad, gestión de cultivos y trazabilidad de patio, molino y bodega. El sistema no lo modifica. La Intranet de Oleoestepa es la plataforma de la cooperativa de segundo grado, donde se consultan las analíticas de los depósitos mediante códigos QR.
+
+**Reparto de la información**
+
+El sistema solo almacena la información que el ERP no recoge: parámetros del proceso (RQI-003), incidencias y alertas (RQI-013) y usuarios (RQI-014). El resto se obtiene del ERP a través de la pasarela y no se duplica (RQG-002). Ambas partes se relacionan mediante los identificadores del ERP: proceso de molturación, línea, lote, depósito y vale de recepción.
+]]></markdownProperty>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

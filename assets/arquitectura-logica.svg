@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1086" viewBox="0 0 1440 1086" font-family="Inter, Arial, Helvetica, sans-serif" fill="#1f2933">
+<title>Arquitectura lógica del sistema: capas, paquetes y dependencias</title>
+<defs><marker id="dep" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="13" markerHeight="13" orient="auto-start-reverse"><path d="M1 1 L11 6 L1 11" fill="none" stroke="#1f2933" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1440" height="1086" fill="#ffffff"/>
+<path d="M30 24 h220.8 v34 H1410 v174 H30 Z" fill="#EAF2FB" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="30" y1="58" x2="250.8" y2="58" stroke="#1f2933" stroke-width="1.5"/>
+<text x="44" y="47" font-size="18"><tspan>«capa» </tspan><tspan font-weight="700">Presentación</tspan></text>
+<path d="M30 292 h272.8 v34 H1410 v226 H30 Z" fill="#EAF6EC" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="30" y1="326" x2="302.8" y2="326" stroke="#1f2933" stroke-width="1.5"/>
+<text x="44" y="315" font-size="18"><tspan>«capa» </tspan><tspan font-weight="700">Lógica de negocio</tspan></text>
+<path d="M30 612 h293.6 v34 H1410 v174 H30 Z" fill="#FCF4E3" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="30" y1="646" x2="323.6" y2="646" stroke="#1f2933" stroke-width="1.5"/>
+<text x="44" y="635" font-size="18"><tspan>«capa» </tspan><tspan font-weight="700">Datos e integración</tspan></text>
+<path d="M277.0 98 h84 v20 H541.0 v84 H277.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="277.0" y1="118" x2="361.0" y2="118" stroke="#1f2933" stroke-width="1.5"/>
+<text x="409" y="167.0" font-size="21" font-weight="700" text-anchor="middle">Interfaz de planta</text>
+<path d="M591.0 98 h84 v20 H855.0 v84 H591.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="591.0" y1="118" x2="675.0" y2="118" stroke="#1f2933" stroke-width="1.5"/>
+<text x="723" y="167.0" font-size="21" font-weight="700" text-anchor="middle">Interfaz de gerencia</text>
+<path d="M120.0 374 h84 v20 H384.0 v92 H120.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="120.0" y1="394" x2="204.0" y2="394" stroke="#1f2933" stroke-width="1.5"/>
+<text x="252" y="420.0" font-size="16" text-anchor="middle">«subsistema»</text>
+<text x="252" y="447.0" font-size="21" font-weight="700" text-anchor="middle">Registro y seguimiento</text>
+<text x="252" y="473.0" font-size="21" font-weight="700" text-anchor="middle">de la producción</text>
+<path d="M434.0 374 h84 v20 H698.0 v92 H434.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="434.0" y1="394" x2="518.0" y2="394" stroke="#1f2933" stroke-width="1.5"/>
+<text x="566" y="420.0" font-size="16" text-anchor="middle">«subsistema»</text>
+<text x="566" y="447.0" font-size="21" font-weight="700" text-anchor="middle">Gestión de</text>
+<text x="566" y="473.0" font-size="21" font-weight="700" text-anchor="middle">incidencias</text>
+<path d="M748.0 374 h84 v20 H1012.0 v92 H748.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="748.0" y1="394" x2="832.0" y2="394" stroke="#1f2933" stroke-width="1.5"/>
+<text x="880" y="420.0" font-size="16" text-anchor="middle">«subsistema»</text>
+<text x="880" y="447.0" font-size="21" font-weight="700" text-anchor="middle">Consulta e informes</text>
+<text x="880" y="473.0" font-size="21" font-weight="700" text-anchor="middle">de trazabilidad</text>
+<path d="M1100.0 374 h84 v20 H1364.0 v92 H1100.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="1100.0" y1="394" x2="1184.0" y2="394" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1232" y="434.0" font-size="21" font-weight="700" text-anchor="middle">Usuarios y control</text>
+<text x="1232" y="460.0" font-size="21" font-weight="700" text-anchor="middle">de acceso</text>
+<path d="M277.0 686 h84 v20 H541.0 v84 H277.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="277.0" y1="706" x2="361.0" y2="706" stroke="#1f2933" stroke-width="1.5"/>
+<text x="409" y="742.0" font-size="21" font-weight="700" text-anchor="middle">Pasarela de lectura</text>
+<text x="409" y="768.0" font-size="21" font-weight="700" text-anchor="middle">del ERP</text>
+<path d="M748.0 686 h84 v20 H1012.0 v84 H748.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="748.0" y1="706" x2="832.0" y2="706" stroke="#1f2933" stroke-width="1.5"/>
+<text x="880" y="742.0" font-size="21" font-weight="700" text-anchor="middle">Pasarela con</text>
+<text x="880" y="768.0" font-size="21" font-weight="700" text-anchor="middle">Oleoestepa</text>
+<path d="M1100.0 686 h84 v20 H1364.0 v84 H1100.0 Z" fill="#fff" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="1100.0" y1="706" x2="1184.0" y2="706" stroke="#1f2933" stroke-width="1.5"/>
+<text x="1232" y="742.0" font-size="21" font-weight="700" text-anchor="middle">Persistencia de</text>
+<text x="1232" y="768.0" font-size="21" font-weight="700" text-anchor="middle">datos propios</text>
+<path d="M277.0 890 h84 v20 H541.0 v84 H277.0 Z" fill="#E6E8EB" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="277.0" y1="910" x2="361.0" y2="910" stroke="#1f2933" stroke-width="1.5"/>
+<text x="409" y="932.0" font-size="16" text-anchor="middle">«sistema externo»</text>
+<text x="409" y="959.0" font-size="21" font-weight="700" text-anchor="middle">Cemawin y Trazamolino</text>
+<text x="409" y="985.0" font-size="21" font-weight="700" text-anchor="middle">(Uniagro)</text>
+<path d="M748.0 890 h84 v20 H1012.0 v84 H748.0 Z" fill="#E6E8EB" stroke="#1f2933" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="748.0" y1="910" x2="832.0" y2="910" stroke="#1f2933" stroke-width="1.5"/>
+<text x="880" y="932.0" font-size="16" text-anchor="middle">«sistema externo»</text>
+<text x="880" y="959.0" font-size="21" font-weight="700" text-anchor="middle">Intranet de</text>
+<text x="880" y="985.0" font-size="21" font-weight="700" text-anchor="middle">Oleoestepa</text>
+<path d="M373.0 202.0 L322.0 394.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M445.0 202.0 L544.0 394.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M687.0 202.0 L628.0 394.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M759.0 202.0 L858.0 394.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M1232.0 232.0 L1232.0 394.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M434.0 440.0 L384.0 440.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M748.0 440.0 L698.0 440.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M766.0 486.0 L766.0 520.0 L340.0 520.0 L340.0 486.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M1232.0 552.0 L1232.0 706.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M252.0 486.0 L399.0 706.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M540.0 486.0 L459.0 706.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M870.0 486.0 L515.0 706.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M940.0 486.0 L940.0 706.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M409.0 790.0 L409.0 910.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<path d="M880.0 790.0 L880.0 910.0" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" stroke-linejoin="round" marker-end="url(#dep)"/>
+<text x="423" y="862" font-size="17" font-style="italic">solo lectura</text>
+<text x="894" y="862" font-size="17" font-style="italic">lectura y envío</text>
+<path d="M36 1046 H116" fill="none" stroke="#1f2933" stroke-width="1.5" stroke-dasharray="8 6" marker-end="url(#dep)"/>
+<text x="130" y="1052" font-size="16">Dependencia: el paquete de origen utiliza al de destino. Si parte del borde de una capa, la utilizan todos los paquetes de esa capa.</text>
+</svg>
