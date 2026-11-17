@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="qgRWrUbsnPAD" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[paso de caso de uso]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El Gerentenintroduce el depósito de origen, el depósito de destino y la cantidad de aceite que se va a trasladar.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

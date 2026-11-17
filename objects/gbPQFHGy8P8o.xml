@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="gbPQFHGy8P8o" classes="use-case-step" acceptedChildren=":Proteus-none" acceptedParents="use-case">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[paso de caso de uso]]></stringProperty>
+    <markdownProperty name="description" category="general"><![CDATA[El sistema busca y recupera la información relacionada con el lote o depósito seleccionado y muestra la información disponible de la trazabilidad.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
