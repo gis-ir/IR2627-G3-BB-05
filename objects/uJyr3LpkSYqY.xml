@@ -3,7 +3,7 @@
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[cantidadTotal]]></stringProperty>
     <stringProperty name="type" category="general"><![CDATA[decimal]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[cantidad total expedida.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[atributo derivado que representa la cantidad total expedida, sumando las cantidades de Extraccion, de los depósitos implicados.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

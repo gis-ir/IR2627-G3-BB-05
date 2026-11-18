@@ -6,7 +6,7 @@
     <stringProperty name="multiplicity-lower-bound" category="general"><![CDATA[0]]></stringProperty>
     <stringProperty name="multiplicity-upper-bound" category="general"><![CDATA[*]]></stringProperty>
     <booleanProperty name="ordered" category="general">false</booleanProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[un proceso de molturación puede no generar alperujo.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

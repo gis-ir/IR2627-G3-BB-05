@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="afQo5JSMJFPZ" classes="attribute" acceptedChildren=":Proteus-none" acceptedParents="entity-class association">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[esMezcla]]></stringProperty>
+    <stringProperty name="type" category="general"><![CDATA[boolean]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[ indica si el contenido del depósito contiene mezcla de varios tipos de aceituna debido al almacenamiento de lotes de aceite con diferente tipo de aceituna.]]></markdownProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

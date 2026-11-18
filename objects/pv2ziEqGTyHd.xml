@@ -2,7 +2,7 @@
 <object id="pv2ziEqGTyHd" classes="enum-value" acceptedChildren=":Proteus-none" acceptedParents="enumeration">
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[enviada]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[el transportista ya tiene el aceite, es decir, fechaEnvio de expedición no es null]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[el transportista ha salido de la almazara en un camión cisterna con el aceite, es decir, fechaEnvio de expedición no es nulo.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

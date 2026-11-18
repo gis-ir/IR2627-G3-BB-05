@@ -3,7 +3,7 @@
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[fechaHora]]></stringProperty>
     <stringProperty name="type" category="general"><![CDATA[datetime]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[momento de la medición.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[momento de la medición del parámetro (no del registro en el sistema).]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

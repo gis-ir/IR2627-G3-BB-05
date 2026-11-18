@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<object id="VMdb7aTqQro3" classes="role" acceptedChildren=":Proteus-none" acceptedParents="association">
+<object id="Qs7tueNeGMLL" classes="role" acceptedChildren=":Proteus-none" acceptedParents="association">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[CargaCisterna]]></stringProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Depósito]]></stringProperty>
     <traceProperty name="type" category="general" acceptedTargets="entity-class" traceType=":Proteus-dependency" maxTargetsNumber="1"/>
     <stringProperty name="multiplicity-lower-bound" category="general"><![CDATA[1]]></stringProperty>
     <stringProperty name="multiplicity-upper-bound" category="general"><![CDATA[*]]></stringProperty>

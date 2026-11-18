@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="ac7go88riHR8" classes="enum-value" acceptedChildren=":Proteus-none" acceptedParents="enumeration">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[picoLimón]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[descripción]]></markdownProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[picoLimon]]></stringProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

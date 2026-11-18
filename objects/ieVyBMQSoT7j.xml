@@ -3,7 +3,7 @@
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Alerta]]></stringProperty>
     <traceProperty name="type" category="general" acceptedTargets="entity-class" traceType=":Proteus-dependency" maxTargetsNumber="1"/>
-    <stringProperty name="multiplicity-lower-bound" category="general"><![CDATA[0]]></stringProperty>
+    <stringProperty name="multiplicity-lower-bound" category="general"><![CDATA[1]]></stringProperty>
     <stringProperty name="multiplicity-upper-bound" category="general"><![CDATA[*]]></stringProperty>
     <booleanProperty name="ordered" category="general">false</booleanProperty>
     <markdownProperty name="description" category="detail"><![CDATA[]]></markdownProperty>

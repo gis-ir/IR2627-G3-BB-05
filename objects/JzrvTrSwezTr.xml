@@ -3,7 +3,7 @@
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[estado]]></stringProperty>
     <stringProperty name="type" category="general"><![CDATA[EstadoExpedicion]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[atributo derivado que puede ser pendiente (sin firma), firmada (con firma) o enviada (con fechaEnvio en el documento).]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[atributo derivado que especifica en que momento se encuentra la expedición]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
