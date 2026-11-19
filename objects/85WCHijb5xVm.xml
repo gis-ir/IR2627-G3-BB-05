@@ -4,5 +4,10 @@
     <stringProperty name=":Proteus-name" category="general"><![CDATA[Reglas de negocio para la integridad de la trazabilidad]]></stringProperty>
     <markdownProperty name="comments" category="general"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="MUVeKvjxCEjB"/>
+    <child id="7q5JGpGMzGEm"/>
+    <child id="UUcdKBuQvDWc"/>
+    <child id="Q8YYBhKTjFKT"/>
+  </children>
 </object>
