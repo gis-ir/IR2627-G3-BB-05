@@ -11,7 +11,7 @@
     <fileProperty name="file" category="detail" tooltip="file-info"><![CDATA[1Recepcion.png]]></fileProperty>
     <urlProperty name="url" category="detail"><![CDATA[]]></urlProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">90</integerProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[Recepción de la aceituna]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[Diagrama de clases de recepción de la aceituna]]></markdownProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object" traceType=":Proteus-dependency"/>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
