@@ -16,7 +16,10 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">medium</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
+      <trace target="coZ3EGpyCXcA" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[Evita contraseñas complejas de teclado (difíciles de introducir en la planta) pero asegura que sepamos qué operario registró cada dato o incidencia durante el proceso.]]></markdownProperty>
   </properties>
   <children/>

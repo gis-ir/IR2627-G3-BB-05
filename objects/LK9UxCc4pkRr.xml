@@ -49,7 +49,10 @@ Línea del ticket de peso: Emitir y entregar el ticket de peso al proveedor de a
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Recepción aceite anterior (1).svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="RrbUN8mYyhXC" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>

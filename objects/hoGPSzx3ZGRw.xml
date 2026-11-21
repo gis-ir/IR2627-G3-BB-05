@@ -18,7 +18,10 @@
     <enumProperty name="urgency" category="priority" tooltip="urgency" choices="tbd high medium low">medium</enumProperty>
     <enumProperty name="status" category="priority" tooltip="status" choices="tbd draft awaiting-qa awaiting-validation validated">draft</enumProperty>
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
+      <trace target="7Nm45epd22w2" traceType=":Proteus-dependency"/>
+      <trace target="X9pBYsk7fQ8n" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[La integración es de solo lectura. Estos datos no se migran ni se duplican (RQG-002).]]></markdownProperty>
   </properties>
   <children/>

@@ -18,6 +18,7 @@
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">medium</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
+      <trace target="coZ3EGpyCXcA" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[Cumple el deseo expresado por el gerente en las dos entrevistas de que la aplicación sea "lo más intuitiva posible".]]></markdownProperty>
   </properties>

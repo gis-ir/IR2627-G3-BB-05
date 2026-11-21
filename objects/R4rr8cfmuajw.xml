@@ -23,6 +23,12 @@ La información de producción queda almacenada digitalmente y asociada al lote 
     <enumProperty name="stability" category="priority" tooltip="stability" choices="tbd low medium high">tbd</enumProperty>
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="5c8Sk5rEcxfv" traceType=":Proteus-dependency"/>
+      <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
+      <trace target="2eGLmgjXkSHo" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
+      <trace target="gUxUnKAQFA9H" traceType=":Proteus-dependency"/>
+      <trace target="DkBr8pNEJ6mG" traceType=":Proteus-dependency"/>
+      <trace target="Z3ajYEyeFwAE" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>

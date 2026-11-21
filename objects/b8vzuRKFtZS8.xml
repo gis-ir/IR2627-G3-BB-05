@@ -27,7 +27,12 @@
     <fileProperty name="diagram" category="detail" tooltip="file-info"><![CDATA[Produccion aceite futuro (4).svg]]></fileProperty>
     <enumProperty name="importance" category="detail" tooltip="importance" choices="tbd critical high medium low optional">tbd</enumProperty>
     <integerProperty name="width" category="detail" tooltip="width-info">100</integerProperty>
-    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency"/>
+    <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement" traceType=":Proteus-dependency">
+      <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
+      <trace target="coZ3EGpyCXcA" traceType=":Proteus-dependency"/>
+      <trace target="2eGLmgjXkSHo" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
+    </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
