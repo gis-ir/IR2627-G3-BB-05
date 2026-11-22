@@ -1,10 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <object id="XKMr3RuKyRLD" classes="use-case-step use-case-action actor-action actor-system-action actor-system-step" acceptedChildren="use-case-exception" acceptedParents="use-case conditional-branch">
   <properties>
-    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso actor-sistema]]></stringProperty>
-    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[]]></markdownProperty>
-    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1"/>
-    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[El actor Operario de molino (ACT-018) selecciona la opción «Registrar información de producción».]]></markdownProperty>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Paso "Seleccionar información de producción"]]></stringProperty>
+    <markdownProperty name="condition" category="general" tooltip="step-condition"><![CDATA[el operario está previamente logado en el sistema]]></markdownProperty>
+    <traceProperty name="actor" category="general" acceptedTargets="system-actor" traceType=":Proteus-dependency" maxTargetsNumber="1">
+      <trace target="aSe7fK4eRyEe" traceType=":Proteus-dependency"/>
+    </traceProperty>
+    <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[selecciona la opción «Registrar información de producción».]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
