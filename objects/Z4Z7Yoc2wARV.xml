@@ -20,6 +20,8 @@
       <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
       <trace target="coZ3EGpyCXcA" traceType=":Proteus-dependency"/>
       <trace target="2eGLmgjXkSHo" traceType=":Proteus-dependency"/>
+      <trace target="RrbUN8mYyhXC" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[Protege la información comercial de los depósitos, los códigos QR de calidad y los datos privados de los socios contra intercepciones.]]></markdownProperty>
   </properties>

@@ -19,6 +19,7 @@
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
       <trace target="2eGLmgjXkSHo" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[En el pesaje de camiones o tractoers en cola continua, cada segundo cuenta para evitar largas esperas o el bloqueo del patio de recepción.]]></markdownProperty>
   </properties>

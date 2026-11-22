@@ -19,6 +19,9 @@
     <traceProperty name="dependencies" category="dependencies" acceptedTargets="traceable-object business-requirement software-requirement" traceType=":Proteus-dependency">
       <trace target="VJiCS9LzdHrW" traceType=":Proteus-dependency"/>
       <trace target="coZ3EGpyCXcA" traceType=":Proteus-dependency"/>
+      <trace target="2eGLmgjXkSHo" traceType=":Proteus-dependency"/>
+      <trace target="RrbUN8mYyhXC" traceType=":Proteus-dependency"/>
+      <trace target="q36kMbWvMCJw" traceType=":Proteus-dependency"/>
     </traceProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[Evita contraseñas complejas de teclado (difíciles de introducir en la planta) pero asegura que sepamos qué operario registró cada dato o incidencia durante el proceso.]]></markdownProperty>
   </properties>
