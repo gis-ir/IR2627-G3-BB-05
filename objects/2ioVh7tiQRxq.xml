@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="2ioVh7tiQRxq" classes="use-case-action system-action" acceptedChildren=":Proteus-none" acceptedParents="use-case-exception">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Corrección de datos]]></stringProperty>
+    <markdownProperty name="description" category="general" tooltip="system-action-description"><![CDATA[permite pulsar en "Corregir" y regresa al formulario de introducción de parámetros (Paso 4) conservando los valores previamente escritos para su edición.]]></markdownProperty>
+    <stringProperty name="performance" category="general" tooltip="performance"><![CDATA[]]></stringProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>

@@ -9,5 +9,7 @@
     <markdownProperty name="description" category="general" tooltip="actor-action-description"><![CDATA[introduce el lote al que pertenecen los datos.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
-  <children/>
+  <children>
+    <child id="WNwSYn2UX6oN"/>
+  </children>
 </object>

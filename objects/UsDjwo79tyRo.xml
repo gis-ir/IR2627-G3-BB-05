@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<object id="UsDjwo79tyRo" classes="use-case-action system-action" acceptedChildren=":Proteus-none" acceptedParents="use-case-exception">
+  <properties>
+    <stringProperty name=":Proteus-name" category="general"><![CDATA[Creación y envío de Alerta]]></stringProperty>
+    <markdownProperty name="description" category="general" tooltip="system-action-description"><![CDATA[muestra los datos resaltando la temperatura en rojo como advertencia visual y, una vez confirmados por el operario en el paso 7, emite automáticamente una alerta de desviación crítica dirigida al gerente y al jefe de molino (RQF-003, REGN-011).
+]]></markdownProperty>
+    <stringProperty name="performance" category="general" tooltip="performance"><![CDATA[]]></stringProperty>
+    <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
+  </properties>
+  <children/>
+</object>
