@@ -3,7 +3,7 @@
   <properties>
     <stringProperty name=":Proteus-name" category="general"><![CDATA[tipoProduccion]]></stringProperty>
     <stringProperty name="type" category="general"><![CDATA[TipoProduccionVuelo]]></stringProperty>
-    <markdownProperty name="description" category="detail"><![CDATA[indica el tipo de producción de la aceituna, si la calidad del fruto es de tipo vuelo. En caso contrario, este atributo es nulo.]]></markdownProperty>
+    <markdownProperty name="description" category="detail"><![CDATA[atributo opcional que indica el tipo de producción de la aceituna, si la calidad del fruto es de tipo vuelo.]]></markdownProperty>
     <markdownProperty name="comments" category="comments"><![CDATA[]]></markdownProperty>
   </properties>
   <children/>
